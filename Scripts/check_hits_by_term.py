@@ -142,12 +142,12 @@ api_list = api_file.read().split('\n')
 api = articleAPI(api_list[api_counter])
 
 #Load in a list of search terms written in Lucene query syntax
-terms_file = open("/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/terms/benchmark_terms.txt", "r")
+terms_file = open("/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/terms/syntactically_correct_search_terms.txt", "r")
 terms = terms_file.read().split('\n')
 print terms
 
 #Load a separate file of list of shortened/clean search terms that are easier to display
-display_file = open("/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/terms/display_benchmark_terms.txt", "r")
+display_file = open("/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/terms/display_search_terms.txt", "r")
 disp_terms = display_file.read().split('\n')
 
 #Where the CSVs will be written out
