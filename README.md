@@ -23,7 +23,7 @@ Folders:
 
 4.**Figures**  : Folder will contain the figures that we included in the article, e.g. trend in "Mental health" vs. "mental illness".
 
-5.**terms**  : Folder will contain the .txt file with both the syntactically correct search terms that get fed into the HTTP request, and the display search terms that are shortened for ease. Both are used in check_hits_by_terms.py.
+5.**terms**  : Folder will contain the two .txt files with the syntactically correct search terms that get fed into the HTTP request, and the display search terms that are shortened for ease. Both are used in check_hits_by_terms.py.
 
 Please feel free to email me {hieronimus.loho@yale.edu} if you have any questions, or if you spot anything that isn't working.
     
