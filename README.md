@@ -1,28 +1,31 @@
-# Mental Health vs. Mental Illness Lancet Paper
+# "Mental Health" vs. "Mental Illness" - Lancet Correspondence
 ### Project examining the frequency of mental health terms in news media using the New York Times Article Search API
-### Adam Chekroud and Hieronimus Loho, [Yale University]
+### Adam Chekroud & Hieronimus Loho [Yale University]
 
 ----------------------------------------
 
 
 - This repository contains the python scraping scripts, raw data, processed data, and figures for our mental health in the media project. 
 
+- It is maintained by HL, who can be reached at {hieronimus.loho@yale.edu}
+
 Folders:
 
 1.**Scripts**:  
-* benchmarker.py: Main scraping script that takes in a list of terms, searches the NYT Article Search API, and saves a CSV of each term,     stating the number of articles (hits) per quarter per year since 1900. 
-* MH.vs.MI.R: Does the data manipulation, visualization, and some statistics for the terms relevant to our article. 
-* plot_all.R: Plots all of the terms in a very basic way and combines them into a single PDF. Does this for data since 1900, since 1960,   since 1966, since 1996, since 2006, and since 2011, with a separate PDF for each timeframe. 
-* PreProcess.R: Takes the raw CSVs created by benchmarker.py, calculates the percentage of articles containing the term, binds data for     all the terms into one big RDS file.
-* total_articles.py: Scrapes the NYT API Article Search for the total number of articles written by the NYT per quarter per year, just as   a reference point so that we can calculate the percentage (in the PreProcess.R script).
+* benchmarker.py: Main script that you give a list of specific queries, and it will: search the NYT Article Search API, and saves a CSV for each term that states the number of articles (hits) per quarter per year since 1900.
+* total_articles.py: This script will calculate the total number of articles in the database per quarter per year. You can use these values as a reference point to correct for the upward trend over time whereby more articles are published now than they used to.
+* PreProcess.R: Takes the raw CSVs created by benchmarker.py, corrects the query hit rates for the total number of articles published, and binds all the data for your search terms into one big binary (RDS) file.
+* MH.vs.MI.R: Does the data manipulation, visualization, and basic statistics for the terms presented in our article. 
 
-2.**CSVs** : Contains all of the CSVs created by benchmarker.py and total_articles.py.
+2.**CSVs** : Folder will contain all of the CSVs created by benchmarker.py and total_articles.py.
 
-3.**Processed Data** : Contains the aggregate RDS made by PreProcess.R that contains all terms. 
+3.**Processed Data** : Folder will contain preprocessed data (in RDS form).
 
-4.**Figures** 
-* All_basic: Very basic figures created by the plot_all.R script.
-* Mental health vs. mental illness: Figures shown in the article, created by the MH.vs.MI.R script.
+4.**Figures**  : Folder will contain the figures that we included in the article, e.g. trend in "Mental health" vs. "mental illness".
 
-Please feel free to email me if you have any questions, or if you spot anything that isn't working: hieronimus.loho@yale.edu
+Please feel free to email me {hieronimus.loho@yale.edu} if you have any questions, or if you spot anything that isn't working.
     
+Please do not share or reuse these materials without permission.
+We have no copyright, nor do we have money to pay lawyers to do anything about it,
+but we will be sad, and [tweet](https://twitter.com/itschekkers) everyone we know to tell them you were naughty.
+
