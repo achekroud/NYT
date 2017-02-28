@@ -1,0 +1,66 @@
+"mental health"
+"mental illness"
+"mental health" OR "mental illness"
+"behavioral health"
+"mental health" OR "mental illness" OR "behavioral health"
+"mental hygiene"
+"posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD" 
+"shell shock"
+schizophren*
+schizoaffective
+"major depressive" OR "major depression" OR "unipolar depression" OR "unipolar depressive"
+"bipolar despression" OR "bipolar depressive" OR "bipolar disorder"
+"mood disorder"
+anorexi*
+bulimi*
+"eating disorder"
+suicid*
+suicid* -bomb*
+suicid* -bomb* -Jonestown
+cancer*
+diabet*
+health
+exercise
+"heart disease"
+hypertension OR "high blood pressure"
+asthma*
+"mental health" AND "crime"
+"mental health" AND ("jail" OR "prison")
+"mental health" AND "brain"
+"mental health" AND neuroscien*
+"mental health" AND religio*
+"mental health" AND ethni*
+"borderline personality"
+"personality disorder"
+"ADHD" OR "attention deficit" OR "hyperactivity disorder"
+"ketamine"
+"ketamine" AND "depression"
+"psilocybin" AND "depression"
+war
+"war" AND "United States"
+("World War I" OR "Great War" OR "First World War") NOT "World War II"
+"war" AND "veteran"
+veteran AND ("mental health" OR "mental illness")
+veteran AND("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+veteran AND "shell shock"
+(veteran OR war) AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+war AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+(veteran OR soldier OR military) AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+(veteran OR soldier OR military OR war) AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+(veteran OR soldier OR military OR "armed forces") AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+(veteran OR soldier OR military OR "armed forces" OR war) AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+(rape OR "sexual assault") AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+disaster AND ("posttraumatic stress" OR "post-traumatic stress" OR "post traumatic stress" OR "PTSD")
+"mental disorder"
+"mental health" OR "mental illness" OR "behavioral health" OR "mental disorder"
+"mental illness" AND crime 
+("mental health" OR "mental illness") AND crime
+("mental health" OR "mental illness" OR "mental disorder") AND crime
+"mental health" AND violen*
+"mental illness" AND violen* 
+("mental health" OR "mental illness") AND violen*
+("mental health" OR "mental illness" OR "mental disorder") AND violen*
+"mental health" AND danger*
+"mental illness" AND danger* 
+("mental health" OR "mental illness") AND danger*
+("mental health" OR "mental illness" OR "mental disorder") AND danger*

@@ -1,0 +1,66 @@
+mental health
+mental illness
+mental health OR mental illness
+behavioral health
+mental health OR mental illness OR behavioral health
+mental hygiene
+PTSD
+shell shock
+schizophrenia
+schizoaffective
+major depressive disorder
+bipolar disorder
+mood disorder
+anorexia
+bulimia
+eating disorder
+suicide
+suicide NOT bomb
+suicide NOT bomb NOT jonestown
+cancer
+diabetes
+health
+exercise
+heart disease
+hypertension
+asthma
+mental health AND crime
+mental health AND prison
+mental health AND brain
+mental health AND neuroscience
+mental health AND religion
+mental health AND ethnicity
+borderline personality
+personality disorder
+ADHDandADD
+ketamine
+ketamine AND depression
+psilocybin AND depression
+war
+war AND US
+World War I
+war AND veteran
+veteran AND (mental health or illness)
+veteran AND PTSD
+veteran AND shell shock
+(veteran or war) AND (PTSD or shell shock)
+war AND (PTSD or shell shock)
+veteran.soldier.military AND PTSD
+veteran.soldier.military.war AND PTSD
+veteran.soldier.military.armedforces AND PTSD
+veteran.soldier.military.armedforces.war AND PTSD
+rape.sexual_assault AND PTSD
+disaster AND PTSD
+mental disorder
+mental health.mental illness.behavioral health.mental disorder
+mental illness AND crime
+mental health.illness AND crime
+mental health.illness.disorder AND crime
+mental health AND violen*
+mental illness AND violen*
+mental health.illness AND violen*
+mental health.illness.disorder AND violen*
+mental health AND danger*
+mental illness AND danger*
+mental health.illness AND danger*
+mental health.illness.disorder AND danger*
