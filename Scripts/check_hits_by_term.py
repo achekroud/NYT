@@ -1,9 +1,9 @@
-####Benchmarker.py written by Hieronimus Loho and Adam Chekroud
+####check_hits_by_term.py written by Hieronimus Loho and Adam Chekroud
 #This script scrapes the NYT Article Search API metadata for the number of hits per quarter 
 #for a list of terms loaded from a .txt file. The script can also rotate through a list of NYT API keys. 
 
 
-##### NewYorkTimes python package by Evan Sherlock, slightly modified by Hieronimus Loho
+#####Imported this NewYorkTimes python package by Evan Sherlock, slightly modified by Hieronimus Loho
 ##### from https://github.com/evansherlock/nytimesarticle 
 
 import requests
@@ -33,7 +33,7 @@ class articleAPI(object):
         """
         
 
-        #******Edit: Got rid of .lower(), because that messes up the Lucene modifiers OR, AND ********************
+        #******Hieronimus Loho's Edit: Got rid of .lower(), because that messes up the Lucene modifiers OR, AND ********************
 
 
 

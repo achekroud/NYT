@@ -1,1 +1,2 @@
 load("/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/Processed_Data/all_terms_hits.RDS")
+load("/Users/hieronimusloho/Box Sync/Research Stuff/NYT/Processed_Data/all_terms_hits.RDS")

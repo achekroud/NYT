@@ -10,8 +10,8 @@ user = system("whoami",intern=TRUE)
 if(user == "adamchekroud"){
   dat_path <- "/Users/adamchekroud/Documents/Phd/Projects/NYT/NYT_Mental_Health_Trends"
 } else {
-  save_path <- "/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/Processed_Data"
-  hits_path <- "/Users/hieronimusloho/Box Sync/Research Stuff/NewYorkTimes/CSVs/"
+  save_path <- "/Users/hieronimusloho/Box Sync/Research Stuff/NYT/Processed_Data"
+  hits_path <- "/Users/hieronimusloho/Box Sync/Research Stuff/NYT/CSVs/"
 }
 
 setwd(hits_path)

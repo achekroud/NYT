@@ -12,12 +12,12 @@
 Folders:
 
 1.**Scripts**:  
-* benchmarker.py: Main script that you give a list of specific queries, and it will: search the NYT Article Search API, and saves a CSV for each term that states the number of articles (hits) per quarter per year since 1900.
-* total_articles.py: This script will calculate the total number of articles in the database per quarter per year. You can use these values as a reference point to correct for the upward trend over time whereby more articles are published now than they used to.
+* check_hits_by_term.py: Main script that you give a list of specific queries, and it will: search the NYT Article Search API, and saves a CSV for each term that states the number of articles (hits) per quarter per year since 1900.
+* check_total_hits.py: This script will calculate the total number of articles in the database per quarter per year. You can use these values as a reference point to correct for the upward trend over time whereby more articles are published now than they used to.
 * PreProcess.R: Takes the raw CSVs created by benchmarker.py, corrects the query hit rates for the total number of articles published, and binds all the data for your search terms into one big binary (RDS) file.
-* MH.vs.MI.R: Does the data manipulation, visualization, and basic statistics for the terms presented in our article. 
+* Data_Vis_Stats.R: Does the data manipulation, visualization, and basic statistics for the terms presented in our article. 
 
-2.**CSVs** : Folder will contain all of the CSVs created by benchmarker.py and total_articles.py.
+2.**CSVs** : Folder will contain all of the CSVs created by check_hits_by_term.py and check_total_hits.py.
 
 3.**Processed Data** : Folder will contain preprocessed data (in RDS form).
 
